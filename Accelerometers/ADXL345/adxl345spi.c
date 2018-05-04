@@ -70,7 +70,7 @@ int main(int argc, char *argv[]) {
 
     // handling command-line arguments
 
-    int bSave = 1;
+    int bSave = 0;
     char vSave[256] = "Pi_Data.csv";
     double vTime = timeDefault;
     double vFreq = freqDefault;
